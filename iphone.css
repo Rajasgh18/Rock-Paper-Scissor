@@ -1,0 +1,108 @@
+/* Title */
+nav{
+    width: 200px;
+    padding: 10px;
+    margin-top: 80px;
+}
+
+nav>img{
+    width: 70px;
+    height: 44px;
+}
+
+.score-board{
+    padding: 3px;
+    width: 70px;
+    border-radius: 8px;
+}
+
+.score-board h4{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.score-board h1{
+    font-size: 1.3rem;
+}
+
+/* Main game area */
+#game{
+    margin-top: 15px;
+    height: 200px;
+    width: 200px;
+}
+
+.triangle{
+    height: 120px;
+    width: 120px;
+}
+
+#Rocks{
+    position: relative;
+    bottom: -55px;
+    left:-85px;
+    padding: 16px;
+    box-shadow: inset 0px -8px 4px hsl(349, 71%, 30%);
+}
+
+#Paper{
+    position: relative;
+    top: -55px;
+    left: 20px;
+    padding: 16px;
+    box-shadow: inset 0px -8px 4px hsl(230, 64%, 38%);
+}
+
+#Scissors{
+    position: relative;
+    top: -55px;
+    right: -65px;
+    padding: 16px;
+    box-shadow: inset 0px -8px 4px hsl(39, 90%, 32%);
+}
+
+.choose{
+    width: 27px;
+    height: 30px;
+    margin: 8px;
+    padding: 7px;
+}
+
+.gamebtns button{
+    margin:-3px;
+    box-shadow: inset 0px 3px 2px rgb(173, 171, 171);
+}
+
+/* Rule area */
+.footer{
+    margin-top: 60px;
+    height: 150px;
+}
+
+.rule{
+    border: 3px solid hsl(217, 16%, 45%);
+    border-radius: 10px;
+    font-size: 0.8rem;
+    margin: 10px auto;
+    padding: 8px 15px;
+}
+
+.rule-container{
+    padding: 20px 50px;
+    width: 140px;
+}
+
+.rule-container > img{
+    height: 150px;
+    width: 170px;
+}
+
+.rule-box{
+    font-size: 0.7rem;
+    width: 200px;
+}
+
+.rule-box img{
+    width: 15px;
+    height: 15px;
+}

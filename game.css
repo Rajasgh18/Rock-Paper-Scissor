@@ -1,0 +1,120 @@
+/* Player selection heading */
+.heading{
+    font-size: 1.5rem;
+    height: 150px;
+    margin-top: 0px;
+    width: 670px;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Main game area */
+#game{
+    width: 740px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.choose{
+    padding: 30px;
+    width: 75px;
+}
+
+.gamebtns button{
+    margin: 15px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    border: 1px solid grey;
+    box-shadow: inset 0px 8px 4px rgb(173, 171, 171);
+    cursor: pointer;
+}
+
+#Rocks{
+    position: relative;
+    top: -3px;
+    left: -100px;
+    padding: 16px;
+    background-image: linear-gradient(45deg, hsl(349, 71%, 52%), hsl(349, 70%, 56%));
+    border-radius: 50%;
+    box-shadow: inset 0px -10px 4px hsl(349, 71%, 30%);
+}
+#Rocks:hover{
+    background-image: linear-gradient(45deg, hsl(349, 71%, 52%), hsl(349, 70%, 56%));
+}
+
+#Paper{
+    position: relative;
+    top: -3px;
+    left: -100px;
+    padding: 16px;
+    background-image: linear-gradient(45deg, hsl(230, 89%, 62%), hsl(230, 89%, 65%));
+    border-radius: 50%;
+    box-shadow: inset 0px -10px 4px hsl(230, 64%, 38%);
+}
+#Paper:hover{
+    background-image: linear-gradient(45deg, hsl(230, 89%, 62%), hsl(230, 89%, 65%));
+}
+
+#Scissors{
+    position: relative;
+    top: -3px;
+    left: -100px;
+    padding: 16px;
+    background-image: linear-gradient(45deg, hsl(39, 89%, 49%), hsl(40, 84%, 53%));
+    border-radius: 50%;
+    box-shadow: inset 0px -10px 4px hsl(39, 90%, 32%);
+}
+#Scissors:hover{
+    background-image: linear-gradient(45deg, hsl(39, 89%, 49%), hsl(40, 84%, 53%));
+}
+
+.position{
+    left: 315px !important;
+}
+
+/* Blank space for house selection */
+.blank-space{
+    position: relative;
+    left: 55px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: hsl(238, 54%, 19%) ;
+}
+
+/* Result area */
+.result-screen{
+    color: aliceblue;
+    position: relative;
+    left: -285px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.result-head{
+    text-align: center;
+    width: 300px;
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+.result-btn{
+    font-size: 1.2rem;
+    padding: 15px;
+    width: 200px;
+    background-color: aliceblue;
+    color:hsl(238, 54%, 19%);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.result-btn:hover{
+    color: red;
+}

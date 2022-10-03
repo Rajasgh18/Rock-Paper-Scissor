@@ -1,0 +1,88 @@
+/* Title */
+nav{
+    width: 400px;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+nav>img{
+    width: 100px;
+    height: 64px;
+}
+
+.score-board{
+    padding: 5px;
+    width: 100px;
+    border-radius: 8px;
+}
+
+.score-board h4{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.score-board h1{
+    font-size: 2rem;
+}
+
+/* Main game area */
+.triangle{
+    height: 250px;
+    width: 250px;
+}
+
+#Rocks{
+    position: relative;
+    top: 85px;
+    left: -140px;
+    padding: 20px;
+}
+
+#Paper{
+    position: relative;
+    top: -123px;
+    left: 20px;
+    padding: 20px;
+}
+
+#Scissors{
+    position: relative;
+    top: -123px;
+    right: -118px;
+    padding: 20px;
+}
+
+.choose{
+    margin: 14px;
+    padding: 12px;
+}
+
+.gamebtns button{
+    margin:3px;
+}
+
+/* Rule area */
+.footer{
+    margin-top: 100px;
+}
+.rule{
+    font-size: 1rem;
+    margin: 20px auto;
+    padding: 10px 30px;
+}
+.rule-container{
+    padding: 20px 30px;
+    width: 240px;
+}
+.rule-container > img{
+    height: 185px;
+    width: 205px;
+}
+.rule-box{
+    font-size: 0.9rem;
+    width: 250px;
+}
+.rule-box img{
+    width: 15px;
+    height: 15px;
+}

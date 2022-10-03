@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rocks Paper Scissors</title>
+        <link rel="stylesheet" href="style.css">
+        <link id="game-css" rel="stylesheet" href="">
+        <link rel="stylesheet" media="screen and (max-width : 1000px)" href="phone.css">
+        <link rel="stylesheet" media="screen and (max-width : 600px)" href="iphone.css">
+        <link id="game-iphone-css" media="screen and (max-width:600px)" rel="stylesheet" href="">
+        <link id="game-phone-css" media="screen and (max-width:1000px) and (min-width:600px)" rel="stylesheet" href="">
+    </head>
+    <body>
+        <nav>
+        <img src="./images/logo.svg" alt="Rocks Paper Scissors">
+        <div class="score-board">
+            <h4>SCORE</h4>
+            <h1 id="score-board">0</h1>
+        </div>
+    </nav>
+    <section id="game-head" class="heading">
+        <h1>YOU PICKED</h1>
+        <h1>THE HOUSE PICKED</h1>
+    </section>
+    <section id="game">
+        <img src="./images/bg-triangle.svg" alt="" class="triangle">
+        
+        <div data-btns="Paper" id="Paper" class="gamebtns">
+            <button><img  src="./images/icon-paper.svg" alt="Rocks" class="choose"></button>
+        </div>
+        
+        <div data-btns="Scissors"  id="Scissors" class="gamebtns">
+            <button><img src="./images/icon-scissors.svg" alt="Paper" class="choose"></button>
+        </div>
+        
+        <div data-btns="Rocks"  id="Rocks" class="gamebtns rock-posi">
+            <button><img src="./images/icon-rock.svg" alt="Scissors" class="choose"></button>
+        </div>   
+        <div id="house-choice"><div class="blank-space"></div></div>
+        <div class="result-screen"></div>
+    </section>
+
+    </section>
+    <footer class="footer">
+        <button type="button" id="ruleshow" class="rule">RULES</button>
+        <div class="container">
+            <div class="center-container">
+                <div class="rule-container">
+                    <div class="rule-box">
+                        <h1>RULES</h1>
+                        <button id="cross"><img src="./images/icon-close.svg" alt=""></button>
+                    </div>
+                    <img src="./images/image-rules.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>

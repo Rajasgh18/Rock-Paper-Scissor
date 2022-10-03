@@ -1,0 +1,66 @@
+/* Player selection heading */
+.heading{
+    width: 300px !important;
+    font-size: 0.7rem;
+    margin-top: -90px;
+}
+
+/* Blank area for house selection */
+.blank-space{
+    position: relative;
+    left: -80px;
+    top: -15px;
+    margin-left: 200px;
+    width: 80px;
+    height: 80px;
+}
+
+/* Main gaming area */
+.position{
+    left: 116px !important;
+}
+
+#game{
+    margin-top: -50px;
+}
+
+#Rocks{
+    position: relative;
+    top: -15px;
+    left: 43px;
+}
+
+#Paper{
+    position: relative;
+    top: -15px;
+    left: 43px;
+}
+
+#Scissors{
+    position: relative;
+    top: -15px;
+    left: 43px;
+}
+
+/* Result area */
+.result-screen{
+    position: relative;
+    top:160px ;
+    left: -98px;
+    margin: 0px auto;
+}
+.result-head{
+    width: 200px;
+    font-size: 2rem;
+}
+.result-btn{
+    font-size: 0.8rem;
+    padding: 10px;
+    width: 120px;
+}
+
+/* Rule area */
+.footer{
+    margin-top: 130px;
+    height: 100px;
+}

@@ -1,0 +1,213 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:sans-serif;
+}
+
+/* Main Background Color */
+body{
+    background-image:radial-gradient( circle at top, hsl(214, 47%, 23%), hsl(237, 49%, 15%));
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Title and Score Board */
+nav{
+    width: 700px;
+    margin: 80px 0px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border: 4px solid hsl(217, 16%, 45%);
+    border-radius: 12px;
+}
+
+.score-board{
+    width: 125px;
+    color: hsl(229, 64%, 46%);
+    background-color: aliceblue;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.score-board h4{
+    font-weight: 800;
+}
+.score-board h1{
+    font-size: 3rem;
+    font-weight: bold;
+    color:hsl(229, 25%, 31%);
+}
+
+/* Player selection heading */
+#game-head{
+    display: none;
+}
+
+/* Main game area */
+#game{
+    width: 350px;
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 140px;
+}
+
+.triangle{
+    z-index: -8;
+    display: block;
+    position: absolute;
+    margin: 0px auto;
+}
+
+.choose{
+    margin: 20px;
+    padding: 18px;
+}
+
+.gamebtns button{
+    margin: 10px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    border: 1px solid grey;
+    box-shadow: inset 0px 6px 4px rgb(173, 171, 171);
+    cursor: pointer;
+}
+
+#Rocks{
+    position: relative;
+    bottom: -110px;
+    left: -178px;
+    padding: 16px;
+    background-image: linear-gradient(45deg, hsl(349, 71%, 52%), hsl(349, 70%, 56%));
+    border-radius: 50%;
+    box-shadow: inset 0px -10px 4px hsl(349, 71%, 30%);
+    cursor: pointer;
+}
+#Rocks:hover{
+    background-image: linear-gradient(45deg, hsl(349, 84%, 60%), hsl(349, 85%, 62%));
+}
+
+#Paper{
+    position: relative;
+    top: -128px;
+    left: 30px;
+    padding: 16px;
+    background-image: linear-gradient(45deg, hsl(230, 89%, 62%), hsl(230, 89%, 65%));
+    border-radius: 50%;
+    box-shadow: inset 0px -10px 4px hsl(230, 64%, 38%);
+    cursor: pointer;
+}
+#Paper:hover{
+    background-image: linear-gradient(45deg, hsl(230, 83%, 65%), hsl(230, 87%, 70%));
+}
+
+#Scissors{
+    position: relative;
+    top: -127px;
+    right: -140px;
+    padding: 16px;
+    background-image: linear-gradient(45deg, hsl(39, 89%, 49%), hsl(40, 84%, 53%));
+    border-radius: 50%;
+    box-shadow: inset 0px -10px 4px hsl(39, 90%, 32%);
+    cursor: pointer;
+}
+#Scissors:hover{
+    background-image: linear-gradient(45deg, hsl(39, 91%, 58%), hsl(40, 91%, 58%));
+}
+
+/* Blank space for House option selection */
+.blank-space{
+    display: none;
+}
+
+/* Rule area */
+.footer{
+    margin-top: 100px;
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.rule{
+    color: aliceblue;
+    font-size: 1.2rem;
+    margin-right: 200px;
+    padding: 14px 35px;
+    background-color: transparent;
+    border: 4px solid hsl(217, 16%, 45%);
+    border-radius: 12px;
+    cursor: pointer;
+}
+.rule:hover{
+    color:orangered;
+    border-color: orangered;
+}
+
+.container{
+    display: none;
+    position: absolute;
+    top: 0px;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container::before{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 150%;
+    width: 100%;
+    content: "";
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.rule-container{
+    z-index: 1;
+    margin: 0px auto;
+    padding: 30px 40px;
+    width: 320px;
+    display: flex;
+    background-color: aliceblue;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.rule-container > img{
+    z-index: 1;
+}
+
+.rule-box{
+    z-index: 1;
+    margin-bottom: 25px;
+    color: hsl(229, 25%, 31%);
+    width: 310px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#cross{
+    background-color: aliceblue;
+    border: 1px solid aliceblue;
+    cursor: pointer;
+}
+
+.center-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
